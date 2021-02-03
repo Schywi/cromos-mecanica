@@ -16,9 +16,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 14px;
 }
-.footer__contacts-information h2 {
+.footer__contacts-information li {
+  margin-bottom: 0.8rem;
+}
+.footer__contacts-information li h2 {
   text-align: start;
+}
+.footer__contacts-information li:last-child a {
+  color: #008037;
 }
 .footer__nav {
   margin-bottom: 1rem;
