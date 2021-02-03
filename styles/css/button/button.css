@@ -1,4 +1,8 @@
 /* Button*/
+.serviceButton {
+  top: -1rem;
+}
+
 .button {
   line-height: normal;
   border-radius: 0;
@@ -13,7 +17,6 @@
   outline: none;
   padding: 12px 10px 10px;
   position: relative;
-  top: -1rem;
 }
 .button__contact {
   width: 200px;
