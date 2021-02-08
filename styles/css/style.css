@@ -516,6 +516,10 @@ header {
 .partners__items {
   padding-right: 1rem;
 }
+.partners__items a img {
+  height: 150px;
+  width: 150px;
+}
 
 @media (max-width: 1085px) {
   .not-hidden .wrap-padding {
