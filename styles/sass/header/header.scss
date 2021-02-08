@@ -105,42 +105,29 @@ body {
 
   //! Banner 
   .banner {
-  
-    background: url(../../img/17.jpeg) no-repeat center center fixed;
-    background-size: cover;
-    background-position: 50% top;
-    background-color: rgba(0, 0, 0, 0.4);
-    background-blend-mode: overlay;
-  
-
-      width:100%;
-      height:60vh; 
-      max-height: 500px;
-
-      color: white;
-      text-align: center;
-
-      display: flex;
-      flex-direction: column;
-
-      align-items: center;
-      justify-content: center;
-
-       font-family: 'Montserrat', sans-serif;
-       
+    
      
       &__title{
         font-weight: 500;
+        font-size: 3rem;
 
       }
       &__subtitle{
+        text-align: center;
         font-weight: 400;
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+         
       }
   }
  
 
    //* End of banner section */
 
+
+   .wrap-banner {
+     position:relative;
+   }
 //! Budget section
 
 .budget {
@@ -154,6 +141,9 @@ body {
     font-family: 'Montserrat', sans-serif;
     flex-wrap: wrap;
 
+    &__footer {
+      background: white;
+    }
    
     
 
